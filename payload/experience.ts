@@ -4,27 +4,16 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
-      title: 'Foo Company',
-      position: 'Node.js Developer',
-      startedAt: '2018-02',
+      title: 'Epic Mobile',
+      position: 'Credit-linked Internship(JBNU)',
+      startedAt: '2020-07',
+      endedAt: '2020-09',
       descriptions: [
-        'OTA Service Provider',
-        'Data modeling and Mashup API development',
-        'Systems Engineering and DevOps',
+        'Data Parsing with JavaScript',
+        'MongoDB update automation task via Google Apps script',
+        'Contents data collection',
       ],
-      skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
-    },
-    {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
-      ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
+      skillKeywords: ['JavaScript', 'Google Apps Script', 'MongoDB', 'Git'],
     },
   ],
 };

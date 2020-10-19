@@ -1,3 +1,4 @@
+// import { link } from 'fs';
 import { IProject } from '../component/project/IProject';
 
 const project: IProject.Payload = {
@@ -30,15 +31,15 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Lorem ipsum Project',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      where: 'Bar Co., LTD.',
+      title: 'Secondhand book sell & register Project',
+      startedAt: '2020-01',
+      endedAt: '2020-10',
+      where: 'Toy Project',
       descriptions: [
         { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
         { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
         { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
-        { content: 'Proin bibendum non nibh eu aliquet' },
+        { content: 'https://github.com/jjongbumeee/magicSora' },
       ],
     },
   ],
