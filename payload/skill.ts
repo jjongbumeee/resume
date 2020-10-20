@@ -23,6 +23,10 @@ const backend: ISkill.Skill = {
       title: 'Apache',
       level: 1,
     },
+    {
+      title: 'Java',
+      level: 1,
+    },
   ],
 };
 
@@ -48,7 +52,7 @@ const frontend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'javascript',
+      title: 'Javascript',
       level: 2,
     },
     {

@@ -16,7 +16,7 @@ const profile: IProfile.Payload = {
   contact: [
     {
       title: 'danieltiger60@gmail.com',
-      link: '#',
+      link: 'mailto:danieltiger60@gmail.com',
       icon: faEnvelope,
     },
     {
