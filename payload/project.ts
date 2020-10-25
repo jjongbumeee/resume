@@ -33,6 +33,10 @@ const project: IProject.Payload = {
         { content: 'Frontend : Vue.js, HTML, CSS' },
         { content: 'Backend : Node.js Express & MySQL' },
         {
+          content: '배포 서버',
+          href: 'http://203.254.143.175:8081',
+        },
+        {
           content: 'Github Link',
           href: 'https://github.com/jjongbumeee/magicSora',
         },
@@ -74,7 +78,7 @@ const project: IProject.Payload = {
       descriptions: [
         { content: 'Google, Naver 등의 캘린더 서비스를 통합하여 관리하는 앱 개발' },
         { content: '앱을 통해 해당 서비스의 일정을 불러오거나 수정' },
-        { content: 'C#, XAML을 이용한 윈도우 애플리케이션' },
+        { content: 'C#, XAML, WPF를 이용한 윈도우 애플리케이션' },
         { content: '윈도우즈 프로그래밍 수업 프로젝트' },
         {
           content: 'Github Link',
