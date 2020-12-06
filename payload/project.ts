@@ -34,7 +34,7 @@ const project: IProject.Payload = {
         { content: 'Backend : Node.js Express & MySQL' },
         {
           content: '배포 서버',
-          href: 'http://203.254.143.175:8081',
+          href: 'http://203.254.143.134:8081',
         },
         {
           content: 'Github Link',
