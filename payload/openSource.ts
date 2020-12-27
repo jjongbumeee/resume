@@ -1,5 +1,4 @@
 import { IOpenSource } from '../component/openSource/IOpenSource';
-import image from '../asset/alps-jbnu_litmus.png';
 
 const openSource: IOpenSource.Payload = {
   disable: false,
@@ -11,8 +10,9 @@ const openSource: IOpenSource.Payload = {
         { content: 'ALPS 동아리원들이 개발, 관리, 운영 중(Private repo)' },
         { content: 'Project Management & Contributor' },
         {
-          content: 'Github Capture Image: ',
-          postImage: image,
+          content: 'Github Capture Image Link',
+          href:
+            'https://raw.githubusercontent.com/jjongbumeee/jjongbumeee.github.io/master/asset/alps-jbnu_litmus.png',
         },
         {
           content: 'Service Link',
