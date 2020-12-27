@@ -5,6 +5,29 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'AWS 서버리스 서비스를 이용한 프로토타입 웹서비스 개발',
+      startedAt: '2020-09',
+      endedAt: '2020-12',
+      where: '분산컴퓨팅(Cloud Computing) 수업',
+      descriptions: [
+        { content: 'AWS의 서버리스 서비스들을 이용하여 모던 웹서비스 개발' },
+        { content: 'AWS CloudFormation, Fargate, CodePipeline 등 다양한 AWS 서비스 이용' },
+        {
+          content: 'AWS 자습서를 따라 진행',
+          href:
+            'https://aws.amazon.com/ko/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/',
+        },
+        {
+          content: 'Slideshare Link',
+          href: 'https://www.slideshare.net/ssuserfdc179/aws-serverless-services',
+        },
+        {
+          content: 'Web Archive Link',
+          href: 'https://archive.vn/1drRs',
+        },
+      ],
+    },
+    {
       title: 'GrandChild(손주)',
       startedAt: '2020-10',
       endedAt: '2020-10',

@@ -1,58 +1,22 @@
 import { IOpenSource } from '../component/openSource/IOpenSource';
+import image from '../asset/alps-jbnu_litmus.png';
 
 const openSource: IOpenSource.Payload = {
-  disable: true,
+  disable: false,
   list: [
     {
-      title: 'node',
+      title: 'Litmus',
       descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
+        { content: '전북대학교 컴퓨터공학부에서 이용하는 온라인저지 서비스' },
+        { content: 'ALPS 동아리원들이 개발, 관리, 운영 중(Private repo)' },
+        { content: 'Project Management & Contributor' },
         {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
+          content: 'Github Capture Image: ',
+          postImage: image,
         },
         {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'NestJS',
-      descriptions: [
-        {
-          content: 'A progressive Node.js framework',
-        },
-        {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'Developer Community',
-      descriptions: [
-        {
-          content: 'Presentation in 2019',
-        },
-        {
-          content: 'Hackathon participation in 2017',
+          content: 'Service Link',
+          href: 'http://litmus.jbnu.ac.kr/',
         },
       ],
     },
