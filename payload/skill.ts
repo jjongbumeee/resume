@@ -5,19 +5,19 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 2,
+      level: 3,
     },
     {
-      title: 'AWS',
+      title: 'C/C++',
+      level: 3,
+    },
+    {
+      title: 'AWS / GCP',
       level: 2,
     },
     {
       title: 'Python',
       level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 3,
     },
     {
       title: 'Apache',
@@ -34,12 +34,12 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
-      title: 'MySQL',
-      level: 1,
+      title: 'PostgreSQL',
+      level: 2,
     },
     {
-      title: 'MongoDB',
-      level: 1,
+      title: 'MySQL',
+      level: 2,
     },
   ],
 };
@@ -48,19 +48,15 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
+      title: 'Javascript',
+      level: 3,
+    },
+    {
       title: 'Vue.js',
       level: 2,
     },
     {
-      title: 'Javascript',
-      level: 2,
-    },
-    {
       title: 'HTML/CSS',
-      level: 2,
-    },
-    {
-      title: 'Webpack',
       level: 1,
     },
   ],
@@ -73,10 +69,10 @@ const etc: ISkill.Skill = {
       title: 'Unix/Linux',
     },
     {
-      title: 'Vim',
+      title: 'Mac OSX',
     },
     {
-      title: 'VS Code',
+      title: 'Webstorm',
     },
     {
       title: 'Git',

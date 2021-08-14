@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faNpm } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile_2019.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -28,6 +28,11 @@ const profile: IProfile.Payload = {
       title: 'Github',
       link: 'https://github.com/jjongbumeee',
       icon: faGithub,
+    },
+    {
+      title: 'npmjs',
+      link: 'https://www.npmjs.com/~daniel_jung',
+      icon: faNpm,
     },
   ],
   notice: {
